@@ -5,26 +5,36 @@
     font-family: 'Roboto', sans-serif;
 }
 
-#main {
+
+body {
     background-color: #e8f5e9;
+    padding: 20px; 
+}
+
+
+.main-container {
+    background-color: #ffffff;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 40px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
 }
 
-#header {
+
+.header-section {
     text-align: center;
-    padding: 40px 0;
-    margin: 40px auto;
+    padding: 40px 0 20px 0; 
 }
 
-#header h1 {
+.header-section h1 {
     font-size: 40px;
     font-weight: 700;
-    color: #1b5e20 ;
-    margin-bottom: 20px;
+    color: #1b5e20;
+    margin-bottom: 10px;
 }
 
-#header p {
+.header-section p {
     font-size: 16px;
     font-weight: 400;
     color: #333;
@@ -37,36 +47,56 @@
     text-align: center;
 }
 
-.secao {
-    border-top: 3px dashed  #a5d6a7;
+.imagem img {
+    max-width: 100%; 
+    border-radius: 4px;
+}
 
+.imagem figcaption {
+    margin-top: 10px;
+    color: #555;
+    font-size: 14px;
+}
+
+.secao {
+    border-top: 3px dashed #a5d6a7;
+    padding: 30px 0; 
 }
 
 .secao h2 {
-    margin-top: 50px;
-    
+    margin-bottom: 20px;
+    color: #1b5e20; 
 }
 
 .secao p {
-    margin: 20px 0;
+    margin-bottom: 15px; 
+    line-height: 1.6; 
 }
 
 .secao li {
     margin-left: 30px;
-    padding: 10px 0;
+    margin-bottom: 10px; 
+    line-height: 1.5;
 }
-
 
 .destaque-verde {
     font-weight: 700;
     color: #2e7d32;
 }
 
-.secao blockquote {
-    color: #333;
-    padding: 0 20px ;
+
+.secao-citacao {
+    background-color: #f1f8e9;
+    padding: 30px;
+    margin: 20px 0;
     border-left: 5px solid #4caf50;
-    
+}
+
+.texto-citacao {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
 }
 
 .autor-citacao {
@@ -74,22 +104,31 @@
     font-style: italic;
 }
 
+.secao-imagem {
+    padding: 30px 0;
+    border-top: 3px dashed #a5d6a7; 
+}
+
 .negrito {
     font-weight: bold;
+    color: #2e7d32; /
 }
 
 footer {
-    padding: 20px 0;
+    border-top: 3px dashed #a5d6a7;
+    padding: 30px 0 40px 0;
     text-align: center;
 }
 
-footer p {
-    padding: 10px;
+footer h2 {
+    color: #1b5e20;
+    margin-bottom: 15px;
 }
 
 a {
     text-decoration: none;
 }
 
-
-
+a:hover {
+    text-decoration: underline; 
+}
