@@ -27,6 +27,7 @@ O repositório está dividido em módulos. Dentro de cada módulo, você encontr
 | Módulo            | Projeto do Curso (Base)       | Meu Projeto Autoral                                                  | Tema do projeto Autoral  |
 | ----------------- | ----------------------------- | -------------------------------------------------------------------- | ------------------------ |
 | **01 - HTML/CSS** | Tributo a banda The Offspring | [Ver Online 🚀](https://formacao-frontend-completa-idwz.vercel.app/) | Mini Biografia do Pelé ⚽ |
+| **02 - Formulário** | Venda fácil seu carro! | [Ver Online 🚀](https://formacao-frontend-completa-viok.vercel.app/) | Inscrição para o exame Chunin 🐱‍👤 |
 
 
 ---
