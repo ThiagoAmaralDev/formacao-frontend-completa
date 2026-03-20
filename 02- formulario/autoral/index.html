@@ -19,7 +19,7 @@
             </h1>
             <p>Preencha suas informações ninja e selecione suas naturezas de chakra.</p>
         </div>
-        <form>
+        <form enctype="multipart/form-data">
             <div class="box-input">
                 
                     <label for="name">
@@ -115,7 +115,7 @@
                         </span>
                     </p>
                 </div>
-                <div class="box-input">
+                <div class="box-radio">
                     <input 
                     type="radio" 
                     required 
@@ -126,7 +126,7 @@
                         Genin
                     </label>
                 </div>
-                <div class="box-input">
+                <div class="box-radio">
                     <input 
                     type="radio" 
                     required 
@@ -150,28 +150,52 @@
                         <span class="destaque-obrigatorio">
                             *
                         </span>
-                        
                     </p>
+                </div>
+
+                <div class="box-checkbox">
                     <input type="checkbox" name="natureza-chakra" id="katon">
                     <label for="katon">Katon (fogo)</label>
                     <input type="checkbox" name="natureza-chakra" id="suiton">
                     <label for="suiton">Suiton (Água)</label>
+                    <input type="checkbox" name="natureza-chakra" id="doton">
+                    <label for="doton">Doton (Terra)</label>
+                    <input type="checkbox" name="natureza-chakra" id="futon">
+                    <label for="futon">Fūton (Vento)</label>
+                    <input type="checkbox" name="natureza-chakra" id="raiton">
+                    <label for="raiton">Raiton (Raio)</label>
                 </div>
                 
-                <div class="box-input">
+                <div class="box-checkbox">
+                    <input type="checkbox" name="especializacoes" id="ninjutsu">
+                    <label for="ninjutsu">Ninjutsu</label>
+                    <input type="checkbox" name="especializacoes" id="taijutsu">
+                    <label for="taijutsu">Taijutsu</label>
+                    <input type="checkbox" name="especializacoes" id="genjutsu">
+                    <label for="genjutsu">Genjutsu</label>
+                    <input type="checkbox" name="especializacoes" id="fuinjutsu">
+                    <label for="fuinjutsu">Fuinjutsu</label>
+                </div>
+
+                </div>
+                
+                
+                    <div class="box-input">
                     
-                        <label for="age">
-                            Idade 
+                        <label for="foto-ficha">
+                            Foto para a Ficha Ninja:  
                             <span class="destaque-obrigatorio">
                                 *
                             </span>
                         </label>
                         <input 
-                        type="number" 
-                        required 
-                        placeholder="Sua idade atual" 
-                        id="age" name="age">
-                </div>
+                        type="file"  
+                        id="foto-ficha" name="foto-ficha" accept="image/png, image/jpeg" multiple required>
+                    </div>
+
+                        <div class="box-input">
+                            <button type="submit">Finalizar Inscrição</button>
+                        </div>
         </form>
     </div>
 </body>
