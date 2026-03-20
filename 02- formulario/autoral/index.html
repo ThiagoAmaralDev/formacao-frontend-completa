@@ -1,202 +1,186 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Inscrição - Equipe Chunin</title>
-</head>
-<body>
+  </head>
+  <body>
     <div id="container">
-        <header id="cabecalho">
-            <p>Confederação Shinobi - Cadastro Oficial</p>
-        </header>
-        <div id="form-container">
-            <p class="form-header">
-                Exame Chunin
-            </p>
-            <h1>
-                Inscreva-se para o Exame!
-            </h1>
-            <p>Preencha suas informações ninja e selecione suas naturezas de chakra.</p>
-        </div>
+      <header id="cabecalho">
+        <p>Confederação Shinobi - Cadastro Oficial</p>
+      </header>
+      <div class="form-container">
+        <p class="form-header">Exame Chunin</p>
+        <h1>Inscreva-se para o Exame!</h1>
+        <p>
+          Preencha suas informações ninja e selecione suas naturezas de chakra.
+        </p>
+
         <form enctype="multipart/form-data">
-            <div class="box-input">
-                
-                    <label for="name">
-                        Nome completo 
-                        <span class="destaque-obrigatorio">
-                            *
-                        </span>
-                    </label>
-                    <input 
-                    type="text" 
-                    required 
-                    placeholder="Ex: Naruto Uzumaki" 
-                    id="name" name="name">
-                
-            </div>
-            <div class="box-input">
-                
-                    <label for="age">
-                        Idade 
-                        <span class="destaque-obrigatorio">
-                            *
-                        </span>
-                    </label>
-                    <input 
-                    type="number" 
-                    required 
-                    placeholder="Sua idade atual" 
-                    id="age" name="age">
-            </div>
+          <div class="box-input">
+            <label for="name">
+              Nome completo
+              <span class="destaque-obrigatorio"> * </span>
+            </label>
+            <input
+              type="text"
+              required
+              placeholder="Ex: Naruto Uzumaki"
+              id="name"
+              name="name"
+            />
+          </div>
+          <div class="box-input">
+            <label for="age">
+              Idade
+              <span class="destaque-obrigatorio"> * </span>
+            </label>
+            <input
+              type="number"
+              required
+              placeholder="Sua idade atual"
+              id="age"
+              name="age"
+            />
+          </div>
 
-            <div class="box-input">
-                
-                    <label for="assinatura-jutsu">
-                        Jutsu de Assinatura 
-                        <span class="destaque-obrigatorio">
-                            *
-                        </span>
-                    </label>
-                    <textarea name="assinatura-jutsu" id="assinatura-jutsu" placeholder="Descreva sua técnica principal (ex: Rasengan, Chidori...)" required></textarea>
+          <div class="box-input">
+            <label for="assinatura-jutsu">
+              Jutsu de Assinatura
+              <span class="destaque-obrigatorio"> * </span>
+            </label>
+            <textarea
+              name="assinatura-jutsu"
+              id="assinatura-jutsu"
+              placeholder="Descreva sua técnica principal (ex: Rasengan, Chidori...)"
+              required
+            ></textarea>
+          </div>
+
+          <div class="box-input">
+            <label for="vila">
+              Vila Oculta de Origem
+              <span class="destaque-obrigatorio"> * </span>
+            </label>
+            <input
+              type="text"
+              required
+              placeholder="Ex: Konoha, Suna, Kiri"
+              id="vila"
+              name="vila"
+            />
+          </div>
+
+          <div class="box-input">
+            <label for="missao">
+              Missões Concluídas (Rank D a A)
+              <span class="destaque-obrigatorio"> * </span>
+            </label>
+            <input
+              type="number"
+              required
+              placeholder="Total de missões finalizadas"
+              id="missao"
+              name="missao"
+            />
+          </div>
+
+          <div class="box-input">
+            <label for="data-formacao">
+              Data de Formação na Academia
+              <span class="destaque-obrigatorio"> * </span>
+            </label>
+            <input
+              type="date"
+              required
+              id="data-formacao"
+              name="data-formacao"
+            />
+          </div>
+
+          <div class="box-input">
+            <div class="radio-header">
+              <p>
+                Classificação atual:
+                <span class="destaque-obrigatorio"> * </span>
+              </p>
             </div>
-
-            <div class="box-input">
-                
-                    <label for="vila">
-                         Vila Oculta de Origem
-                        <span class="destaque-obrigatorio">
-                            *
-                        </span>
-                    </label>
-                    <input 
-                    type="text" 
-                    required 
-                    placeholder="Ex: Konoha, Suna, Kiri" 
-                    id="vila" name="vila">
+            <div class="box-radio">
+              <input
+                type="radio"
+                required
+                id="classificacao-genin"
+                name="classificacao-ninja"
+                value="classificacao-genin"
+              />
+              <label for="genin"> Genin </label>
             </div>
-
-            <div class="box-input">
-                
-                    <label for="missao">
-                        Missões Concluídas (Rank D a A) 
-                        <span class="destaque-obrigatorio">
-                            *
-                        </span>
-                    </label>
-                    <input 
-                    type="number" 
-                    required 
-                    placeholder="Total de missões finalizadas" 
-                    id="missao" name="missao">
+            <div class="box-radio">
+              <input
+                type="radio"
+                required
+                id="classificacao-renegado"
+                name="classificacao-ninja"
+                value="renegado"
+              />
+              <label for="classificacao-renegado"> Renegado </label>
             </div>
+          </div>
 
-            <div class="box-input">
-                
-                    <label for="data-formacao">
-                        Data de Formação na Academia 
-                        <span class="destaque-obrigatorio">
-                            *
-                        </span>
-                    </label>
-                    <input 
-                    type="date" 
-                    required 
-                    id="data-formacao" name="data-formacao">
-            </div>
-
-            <div class="box-input">
-                
-                <div class="radio-header">
-                    <p>
-                        Classificação atual: 
-                        <span class="destaque-obrigatorio">
-                            *
-                        </span>
-                    </p>
-                </div>
-                <div class="box-radio">
-                    <input 
-                    type="radio" 
-                    required 
-                    id="classificacao-genin" 
-                    name="classificacao-ninja" 
-                    value="classificacao-genin">
-                    <label for="genin">
-                        Genin
-                    </label>
-                </div>
-                <div class="box-radio">
-                    <input 
-                    type="radio" 
-                    required 
-                    id="classificacao-renegado" 
-                    name="classificacao-ninja" 
-                    value="renegado">
-                    <label for="classificacao-renegado">
-                        Renegado
-                    </label>
-                </div>
-
+          <div class="box-input">
+            <div class="checkbox-header">
+              <p>
+                Natureza de Chakra:
+                <span class="destaque-obrigatorio"> * </span>
+              </p>
             </div>
 
-            
-            
-            <div class="box-input">
-                
-                <div class="checkbox-header">
-                    <p>
-                        Natureza de Chakra: 
-                        <span class="destaque-obrigatorio">
-                            *
-                        </span>
-                    </p>
-                </div>
+            <div class="box-checkbox">
+              <input type="checkbox" name="natureza-chakra" id="katon" />
+              <label for="katon">Katon (fogo)</label>
+              <input type="checkbox" name="natureza-chakra" id="suiton" />
+              <label for="suiton">Suiton (Água)</label>
+              <input type="checkbox" name="natureza-chakra" id="doton" />
+              <label for="doton">Doton (Terra)</label>
+              <input type="checkbox" name="natureza-chakra" id="futon" />
+              <label for="futon">Fūton (Vento)</label>
+              <input type="checkbox" name="natureza-chakra" id="raiton" />
+              <label for="raiton">Raiton (Raio)</label>
+            </div>
 
-                <div class="box-checkbox">
-                    <input type="checkbox" name="natureza-chakra" id="katon">
-                    <label for="katon">Katon (fogo)</label>
-                    <input type="checkbox" name="natureza-chakra" id="suiton">
-                    <label for="suiton">Suiton (Água)</label>
-                    <input type="checkbox" name="natureza-chakra" id="doton">
-                    <label for="doton">Doton (Terra)</label>
-                    <input type="checkbox" name="natureza-chakra" id="futon">
-                    <label for="futon">Fūton (Vento)</label>
-                    <input type="checkbox" name="natureza-chakra" id="raiton">
-                    <label for="raiton">Raiton (Raio)</label>
-                </div>
-                
-                <div class="box-checkbox">
-                    <input type="checkbox" name="especializacoes" id="ninjutsu">
-                    <label for="ninjutsu">Ninjutsu</label>
-                    <input type="checkbox" name="especializacoes" id="taijutsu">
-                    <label for="taijutsu">Taijutsu</label>
-                    <input type="checkbox" name="especializacoes" id="genjutsu">
-                    <label for="genjutsu">Genjutsu</label>
-                    <input type="checkbox" name="especializacoes" id="fuinjutsu">
-                    <label for="fuinjutsu">Fuinjutsu</label>
-                </div>
+            <div class="box-checkbox">
+              <input type="checkbox" name="especializacoes" id="ninjutsu" />
+              <label for="ninjutsu">Ninjutsu</label>
+              <input type="checkbox" name="especializacoes" id="taijutsu" />
+              <label for="taijutsu">Taijutsu</label>
+              <input type="checkbox" name="especializacoes" id="genjutsu" />
+              <label for="genjutsu">Genjutsu</label>
+              <input type="checkbox" name="especializacoes" id="fuinjutsu" />
+              <label for="fuinjutsu">Fuinjutsu</label>
+            </div>
+          </div>
 
-                </div>
-                
-                
-                    <div class="box-input">
-                    
-                        <label for="foto-ficha">
-                            Foto para a Ficha Ninja:  
-                            <span class="destaque-obrigatorio">
-                                *
-                            </span>
-                        </label>
-                        <input 
-                        type="file"  
-                        id="foto-ficha" name="foto-ficha" accept="image/png, image/jpeg" multiple required>
-                    </div>
+          <div class="box-input">
+            <label for="foto-ficha">
+              Foto para a Ficha Ninja:
+              <span class="destaque-obrigatorio"> * </span>
+            </label>
+            <input
+              type="file"
+              id="foto-ficha"
+              name="foto-ficha"
+              accept="image/png, image/jpeg"
+              multiple
+              required
+            />
+          </div>
 
-                        <div class="box-input">
-                            <button type="submit">Finalizar Inscrição</button>
-                        </div>
+          <div class="box-input">
+            <button type="submit">Finalizar Inscrição</button>
+          </div>
         </form>
+      </div>
     </div>
-</body>
+  </body>
 </html>
