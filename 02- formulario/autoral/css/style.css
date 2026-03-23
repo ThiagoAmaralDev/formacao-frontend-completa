@@ -129,6 +129,7 @@ input[type="file"] {
     border-bottom: 2px solid var(--cor-borda);
     padding-bottom: 10px;
     background: var(--cor-pergaminho);
+    outline: none;
     
 }
 
@@ -138,6 +139,7 @@ input[type="file"] {
     border-bottom: 2px solid var(--cor-borda);
     height: 100px;
     background: var(--cor-pergaminho);
+    outline: none;
 }
 
 .radio-header p {
