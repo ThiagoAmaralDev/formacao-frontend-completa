@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
+:root {
+        --cor-fogo: #e85d04;
+        --cor-fogo-escuro: #9d0208;
+        --cor-dourado: #f4a61d;
+        --cor-dourado-claro: #ffd166;
+        --cor-escuro: #0d0d0d;
+        --cor-pergaminho: #f5efe0;
+        --cor-pergaminho-escuro: #e8dcc5;
+        --cor-sombra: #1a0a00;
+        --cor-texto: #2b1a0a;
+        --cor-obrigatorio: #c1121f;
+        --cor-borda: #c09030;
+      }
+
+
 * {
     margin: 0;
     padding: 0;
@@ -5,19 +22,30 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-    background-color: #f1f5f9; 
-}
 
 #cabecalho {
-    height: 160px; 
-    padding: 20px; 
-    background-color: #1e293b; 
-    text-align: center; 
+    
+    background: linear-gradient(135deg, var(--cor-sombra) 0%, #3d0000 40%, #6b1a00 70%, var(--cor-sombra) 100%);
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+    padding: 30px;
+    
 }
 
-#cabecalho p {
-    color: #ffffff; 
-    font-size: 24px; 
-    font-weight: bold; 
+#cabecalho h2 {
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+    color: #f4a61d;   
+
+    
 }
+
+.destaque-pequeno-titulo {
+    font-family: "Cinzel Decorative", serif;
+    letter-spacing: 4.7px;
+    font-size: 10px;
+    display: block;
+    opacity: 0.7;
+}
+
