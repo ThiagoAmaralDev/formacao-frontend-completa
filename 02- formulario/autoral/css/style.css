@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oxanium:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
 :root {
         --cor-fogo: #e85d04;
@@ -56,7 +58,7 @@ body {
 
 .form-container {
     position: relative;
-    top: -50px;
+    top: -30px;
     background: var(--cor-pergaminho);
     width: 65%;
     margin: 0 auto;
@@ -76,7 +78,7 @@ body {
     font-family: "Cinzel Decorative", serif;
     border-bottom: 3px solid var(--cor-fogo);
     display: inline-block;
-    color: var(--cor-texto);
+    color: var(--cor-fogo-escuro);
     font-size: 12px;
     letter-spacing: 2px;
     padding-bottom: 3px;
@@ -86,3 +88,116 @@ body {
     padding: 30px 40px;
 }
 
+.form-title {
+    padding: 35px 0 0 40px;
+}
+
+.form-title h1 {
+    font-family: "Cinzel Decorative", serif;
+    font-size: 22px;
+    color: var(--cor-fogo-escuro);
+    text-transform: uppercase;
+}
+
+.form-title p {
+    font-size: 14px;
+    opacity: 0.7;
+    color: #7a5c3a;
+}
+
+.box-input {
+    
+    margin-bottom: 28px;
+    display: block;
+
+}
+
+.box-input label {
+    display: block;
+    font-family: "Rajdhani", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="file"] {
+    width: 420px;
+    border: none;
+    border-bottom: 2px solid var(--cor-borda);
+    padding-bottom: 10px;
+    background: var(--cor-pergaminho);
+    
+}
+
+.box-input textarea {
+    width: 420px;
+    border: none;
+    border-bottom: 2px solid var(--cor-borda);
+    height: 100px;
+    background: var(--cor-pergaminho);
+}
+
+.radio-header p {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.box-radio {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.box-radio label {
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+.checkbox-header p {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.box-checkbox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.box-checkbox label {
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+.box-checkbox-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.btn-submit {
+    padding: 14px 40px;
+    font-family: "Cinzel Decorative", serif;
+    background: var(--cor-fogo-escuro);
+    cursor: pointer;
+    color: #fff;
+    border: none;
+}
+
+.btn-submit:hover {
+    background: var(--cor-fogo);
+}
+
+
+
+.destaque-obrigatorio {
+    color: var(--cor-obrigatorio);
+}
