@@ -28,7 +28,7 @@ O repositório está dividido em módulos. Dentro de cada módulo, você encontr
 | ----------------- | ----------------------------- | -------------------------------------------------------------------- | ------------------------ |
 | **01 - HTML/CSS** | Tributo a banda The Offspring | [Ver Online 🚀](https://formacao-frontend-completa-idwz.vercel.app/) | Mini Biografia do Pelé ⚽ |
 | **02 - Formulário** | Venda fácil seu carro! | [Ver Online 🚀](https://formacao-frontend-completa-viok.vercel.app/) | Inscrição para o exame Chunin 🐱‍👤 |
-| **02 - Responsividade** | Compre um domínio para seu site! | [Ver Online 🚀](https://formacao-frontend-completa-i4fj.vercel.app/) | Leitura Livre 📖 |
+| **03 - Responsividade** | Compre um domínio para seu site! | [Ver Online 🚀](https://formacao-frontend-completa-i4fj.vercel.app/) | Leitura Livre 📖 |
 
 
 ---
