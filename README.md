@@ -29,6 +29,7 @@ O repositório está dividido em módulos. Dentro de cada módulo, você encontr
 | **01 - HTML/CSS** | Tributo a banda The Offspring | [Ver Online 🚀](https://formacao-frontend-completa-idwz.vercel.app/) | Mini Biografia do Pelé ⚽ |
 | **02 - Formulário** | Venda fácil seu carro! | [Ver Online 🚀](https://formacao-frontend-completa-viok.vercel.app/) | Inscrição para o exame Chunin 🐱‍👤 |
 | **03 - Responsividade** | Compre um domínio para seu site! | [Ver Online 🚀](https://leitura-livre.vercel.app/) | Leitura Livre 📖 |
+| **04 - Tabuada** | Gerador de tabuada | [Ver Online 🚀](https://tabuada-js-guiado.vercel.app//) | Tabuada ➗ |
 
 
 ---
